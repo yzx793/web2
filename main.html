@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tsy网站</title>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+</head>
+<body>
+	<div class="header">
+		<div class="nav">
+			<div class="container">
+				<!-- logo -->
+				<div class="logo">
+					<img src="img/logo.jpg" alt="">
+				</div>
+				<!-- 登陆注册 弹出登录框 -->
+				<div>
+					<input type="button" value="登录" onclick="Show();" id="reg">
+					<input type="button" value="注册" onclick="Show();" id="reg">
+				</div>
+					<ul class="clearfix">
+						<li><a href="#">首页</a></li>
+						<li>
+							<a href="#">作品欣赏</a>
+						</li>
+						<li>
+							<a href="#">爱豆欣赏</a>
+						</li>
+						<li>
+							<a href="#">明星后援团</a>
+						</li>
+						<li>
+							<a href="#">明星行程</a>
+						</li>
+						<li>
+							<a href="#">网站简介</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id = "outer">
+				<div class="content">
+					<ul class="imgs">
+						<li class="img"><img src="img/banner01.jpg"/></li>
+						<li class="img"><img src="img/banner02.jpg"/></li>
+						<li class="img"><img src="img/banner03.jpg"/></li>
+						<li class="img"><img src="img/banner04.jpg"/></li>
+						<li class="img"><img src="img/banner05.jpg"/></li>						
+					</ul>
+				</div>
+					<ul class='dots'>
+						<li><img class="dot_img" src="img/banner01.jpg"/></li>
+						<li><img class="dot_img" src="img/banner02.jpg"/></li>
+						<li><img class="dot_img" src="img/banner03.jpg"/></li>
+						<li><img class="dot_img" src="img/banner04.jpg"/></li>
+						<li><img class="dot_img" src="img/banner05.jpg"/></li>	
+					</ul>
+				</div>
+		<!-- 作品 -->
+		<div class="floor1">
+			<div class="container">
+				<!-- 时间 -->
+				<div class="showTime">
+					<div id="show">当前时间为：</div>
+				  </div>
+				<div class="title">
+					<div class="main_title">谭松韵相关作品</div>
+					<div class="sub_title">WORKS APPLICATION</div>
+				</div>
+				<div class="photos clearfix">
+					<div class="lft">
+						<div class="up">
+							<img src="img/photo01.jpg" alt="">
+						</div>
+						<div class="down">
+							<img src="img/photo02.jpg" alt="">
+						</div>
+					</div>
+					<div class="ctr">
+						<img src="img/photo03.jpg" alt="" id="cen">
+					</div>
+					<div class="rgt">
+						<div class="up">
+							<img src="img/photo04.jpg" alt="">
+						</div>
+						<div class="down">
+							<img src="img/photo05.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 剧照 -->
+		<div class="floor2">
+			<div class="container">
+				<div class="title">
+					<div class="main_title">谭松韵剧照展示</div>
+					<div class="sub_title">STYLE SHOW</div>
+				</div>
+				<div class="photos">
+					<div class="wrapper clearfix">
+						<div>
+							<div><img src="img/genpai01.jpg" alt=""></div>
+						</div>
+						<div>
+							<div><img src="img/genpai02.jpg" alt=""></div>
+						</div>
+						<div>
+							<div><img src="img/genpai03.jpg" alt=""></div>
+						</div>
+						<div>
+							<div><img src="img/genpai04.jpg" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="floor3">
+			<div class="container">
+				<div class="title">
+					<div class="main_title">新闻资讯</div>
+					<div class="sub_title">LATEST NEWS</div>
+				</div>
+				<div class="news">
+					<ul class="clearfix">
+						<li class="clearfix">
+							<div class="lft">
+								<img src="img/news.jpg">
+								<div class="cover"></div>
+							</div>
+							<div class="rgt">
+								<div class="up">大牌对王牌谭松韵称玩的很嗨</div>
+								<div class="down"><a href="#">　刚收官不久的《旋风少女》中谭松韵和吴磊饰演一对欢喜小冤家，虏获了一大票的“迎风”CP粉，在活动中，谭松韵和刘昊然一组，谢依霖和吴磊一组，强强对抗相互厮杀，遭到一片“迎风党”控诉：为何要把我大迎风拆散！明明他们俩才应该是一组！</a></div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="lft">
+								<img src="img/news.jpg">
+								<div class="cover"></div>
+							</div>
+							<div class="rgt">
+								<div class="up">谭松韵妈妈因车祸去世…她和女儿的故事让人泪目</div>
+								<div class="down">
+									<a href="#">妈妈病危的那段日子，谭松韵每时每刻都在病床前祈祷，“妈妈，只要你能醒来我愿意拿一切去换。”</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 建议 页末-->
+		<div class="footer">
+			<div class="container clearfix">
+				<div class="lft">
+					<img src="img/logo.jpg" alt="">
+				</div>
+				<div id="box">
+					<form>
+						<div id="star">
+							<ul id="evaluate">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<div id="input">
+							<textarea id="word"  name="customerEvaluationComment"
+							 placeholder="留下您的宝贵评分" class="form-control"></textarea>
+						</div>
+						<div>
+							<input type="submit" value="提交" name="评论" id="sub">
+						</div>
+					</form>
+				</div>
+				<div class="rgt">
+					<p>Tel:123456789</p>
+					<p>ADD:河北省石家庄市裕华区</p>
+					<p>Copyright：2019-2020 版权所有</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="shade" class="c1 hide"></div>
+		<div id="modal" class="c2 hide">
+			<p>用户：<input type="text" /></p>
+			<p>密码：<input type="password" /></p>
+		<p>
+			<input type="button" value="确定">
+			<input type="button" value="取消" onclick="Hide();">
+		</p>
+			</div>
+		<input type="button" name="" id="back" value="回到顶部" />
+</body>
+<script type="text/javascript" src="js/back.js"></script>
+<script type="text/javascript" src="js/time.js"></script>
+<script type="text/javascript" src="js/denglu.js"></script>
+<script type="text/javascript" src="js/pingjia.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	window.function()
+	{
+	    var imgList=document.getElementById("imgList");	
+		var imgarr=document.getElementsByTagName("img");
+		imgList.style.width=447*imgarr.length+"px";
+		var navdiv=document.getElementById("navdiv");
+		var outer=document.getElementById("outer");
+		navdiv.style.left=(outer.offsetWidth-navdiv.offsetWidth)/2+"px";
+		var index=0;
+		var alla=document.getElementsByTagName("a");
+		lla[index].style.backgroundColor="#000";
+		for(var i=0;i<alla.length;i++)
+		{
+			alla[i].num=i;
+			alla[i].onclick=function(){
+				clearInterval(timer);
+			index=this.num;
+				setA();
+				move(imgList,"left",-447*index,20,function(){
+					autoChange();
+				});
+			};
+		}
+		var timer;
+		function autoChange(){
+			timer=setInterval(function(){
+				index++;
+				index=index%imgarr.length;
+				move(imgList,"left",-447*index,20,function(){
+					setA();
+				});
+			},3000);
+		}
+		autoChange();
+		function setA(){
+			if(index>=imgarr.length-1){
+				index=0;
+				imgList.style.left=0;
+			}
+			for(var i=0;i<alla.length;i++){
+				alla[i].style.backgroundColor="";
+			}
+			alla[index].style.backgroundColor="#000";
+		};
+	}
+</script>
+</html>
